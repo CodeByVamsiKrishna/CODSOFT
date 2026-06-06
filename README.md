@@ -1,2 +1,2 @@
 # CODSOFT
-Python To_Do_List project
+Python development internship projects
