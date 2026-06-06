@@ -28,11 +28,7 @@ while True:
         count += 1
         print(count, task)
 
-    try:
-        task_number = int(input("Enter the task number to perform task : "))
-    except:
-        print("Please enter a valid number.")
-        continue
+    task_number = int(input("Enter the task number to perform task : "))
 
     if task_number == 1:
         for task in available_task:
