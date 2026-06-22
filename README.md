@@ -13,10 +13,9 @@ The main goal of this internship was to improve my Python programming skills by 
 Features:
 
 * Add tasks
-* View tasks
-* Delete tasks
+* Delete task
+* Delete all tasks
 * Update task status
-* Search tasks
 
 ### 2. Calculator Application
 
