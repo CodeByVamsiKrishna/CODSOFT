@@ -48,16 +48,16 @@ button_frame=toolkit.Frame(window)
 button_frame.pack()
 
 mark_button=toolkit.Button(button_frame,text=" Mark Complete ",command=mark_buttonuse)
-mark_button.grid(row=0,column=0)
+mark_button.grid(row=0,column=0,padx=15)
 
 delete_button=toolkit.Button(button_frame,text=" Delete All ",command=delete_buttonuse)
-delete_button.grid(row=0,column=1)
+delete_button.grid(row=0,column=1,padx=15)
 
 delete_itembutton=toolkit.Button(button_frame,text=" Delete ",command=delete_itembuttonuse)
-delete_itembutton.grid(row=0,column=2)
+delete_itembutton.grid(row=0,column=2,padx=15)
 
 exit_button=toolkit.Button(button_frame,text=" Exit ",command=window.destroy)
-exit_button.grid(row=0,column=3)
+exit_button.grid(row=0,column=3,padx=15)
 
 
 
